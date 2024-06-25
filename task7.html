@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <center><h2><b> Registration Form</b></h2></center>
+   <style>
+    form{
+        background-color:aqua;
+    }
+   </style>
+    
+</head>
+<body>
+    <form>
+       <br> <label for="fname">Firstname:</label>
+        <br><input id="fname" type="text" name="fname" placeholder="Enter your first name"/>
+        <br><label for="sname">Secondname:</label>
+        <br><input id="sname" type="text" name="sname" placeholder="Enter your second name"/>
+        <br><label for=" Email">Email:</label>
+        <br><input id="Email" type="Email" name="Email" placeholder="Enter your mail id"/>
+        <br><label for="Mobileno">Mobileno:</label>
+        <br> <input id="Mobileno" type="tel" pattern="[0-9]"{4,} name="Mobileno" />
+        <br><label for="pswd">Password:</label>
+        <br><input id="pswd" type="password" name="pswd" autofocus/>
+        <br><label for="add">Address</label>
+        <br><input id="add" name="add" type="text"/>
+        <p>Gender:</p>
+        <input type="radio" id="fe" name="f"/>          
+        <label for="Fe">Female</label><br>
+        <input type="radio" id="me" name="m"/>
+        <label for="me">Male</label>
+        <p>Choose your branch:</p>
+        <input id="cb1" name="chb1" type="checkbox"/>
+        <label for="cb1">ECE</label>
+        <br><input id="cb2" name="chb2" type="checkbox"/>
+        <label for="cb2">CSE</label>
+        <br><input id="cb3" name="chb3" type="checkbox"/>
+        <label for="cb3">IT</label><br>
+        <br><label for="date">Date:</label>
+        <br><input id="date" name="date" type="date"/>
+        <br><label for="time">Time:</label>
+        <br><input id="time" name="time" type="time"/>
+        <br><label for="rs">Resume:</label>
+        <br><input id="rs" name="rs" type="file"/>
+        <br><label for="colr">Color:</label>
+        <br><input id="colr" name="colr" type="color"/>
+        <br><label for="ran">Range:</label>
+        <br><input id="ran" name="ran" type="range"/>
+        <br><input type="Submit"/>
+        <br><br><input type="Reset"/>
+    </form>
+</body>
+</html>
